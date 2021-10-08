@@ -26,7 +26,7 @@
   "removable-npc-toggle": "<green>Right click the NPC you want to remove! <gray>[Timeout: 5 seconds]",
   "npc-already-available": "<red>There is already an NPC at this location!</red>",
   "npc-removed": "<green>NPC has been removed!",
-  "already-purchased": "<red><bold>You already purchased the same <thing>></bold>",
+  "already-purchased": "<red><bold>You already purchased the same <thing></bold>",
   "wait-trap": "<red>You already purchased this upgrade!, wait for it to wear out",
   "upgrade-team-protection": "<red><player><yellow> has upgraded team protection",
   "upgrade-team-sharpness": "<red><player><yellow> has upgraded team sharpness",

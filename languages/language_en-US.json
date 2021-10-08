@@ -8,49 +8,49 @@
   "pickaxe": "pickaxe",
   "axe": "axe",
   "click-to-purchase": "<yellow>Click to purchase!</yellow>",
-  "cannot-downgrade-item": "<red>Cannot downgrade %item%!",
+  "cannot-downgrade-item": "<red>Cannot downgrade <item>!",
   "dragon-spawn": "<red>Dragons has been spawned!, good luck",
   "dragon-trap-purchased": "<gold>Dragon upgrade has been purchased!",
-  "game-starts-in": "<yellow>The game starts in <red>%seconds% <yellow>seconds",
+  "game-starts-in": "<yellow>The game starts in <red><seconds> <yellow>seconds",
   "bed-destroyed": {
     "title": "<red><bold>BED DESTROYED!</bold>",
     "sub-title": "You will no longer respawn!",
     "messages": [
-      "<white><bold>BED DESTRUCTION > </white></bold> %team% Bed <gray>was destroyed by %destroyer%</gray>",
-      "<white><bold>BED DESTRUCTION > </white></bold> %team% Bed <gray>got memed by %destroyer%</gray>",
-      "<white><bold>BED DESTRUCTION > </white></bold> %team% Bed <gray>was deep fried by %destroyer%</gray>",
-      "<white><bold>BED DESTRUCTION > </white></bold> %team% Bed <gray>was incinerated by %destroyer%</gray>"
+      "<white><bold>BED DESTRUCTION > </white></bold> <team> Bed <gray>was destroyed by <destroyer></gray>",
+      "<white><bold>BED DESTRUCTION > </white></bold> <team> Bed <gray>got memed by <destroyer></gray>",
+      "<white><bold>BED DESTRUCTION > </white></bold> <team> Bed <gray>was deep fried by <destroyer></gray>",
+      "<white><bold>BED DESTRUCTION > </white></bold> <team> Bed <gray>was incinerated by <destroyer></gray>"
     ]
   },
   "added-npc": "<green>Successfully added GamesInventory NPC!",
   "removable-npc-toggle": "<green>Right click the NPC you want to remove! <gray>[Timeout: 5 seconds]",
   "npc-already-available": "<red>There is already an NPC at this location!</red>",
   "npc-removed": "<green>NPC has been removed!",
-  "already-purchased": "<red><bold>You already purchased the same %thing%</bold>",
+  "already-purchased": "<red><bold>You already purchased the same <thing>></bold>",
   "wait-trap": "<red>You already purchased this upgrade!, wait for it to wear out",
-  "upgrade-team-protection": "<red>%player%<yellow> has upgraded team protection",
-  "upgrade-team-sharpness": "<red>%player%<yellow> has upgraded team sharpness",
-  "upgrade-team-efficiency": "<red>%player%<yellow> has upgraded team efficiency",
+  "upgrade-team-protection": "<red><player><yellow> has upgraded team protection",
+  "upgrade-team-sharpness": "<red><player><yellow> has upgraded team sharpness",
+  "upgrade-team-efficiency": "<red><player><yellow> has upgraded team efficiency",
   "error-occured": "<red><bold>AN ERROR HAS OCCURRED</bold>",
   "greatest-enchantment": "<red><bold>You Already have the greatest enchantment</bold>",
-  "generator-upgrade": "%MatName%<yellow> generator has been upgraded to <red>%tier%",
-  "shout-format": "<gold>[SHOUT] %color%[%team%]<reset> %player%<gray>: <reset>%message%",
+  "generator-upgrade": "<MatName><yellow> generator has been upgraded to <red><tier>",
+  "shout-format": "<gold>[SHOUT] <color>[<team>]<reset> <player><gray>: <reset><message>",
   "blind-trap-triggered": {
-    "message": "<yellow>You have been blinded by %team% team!",
+    "message": "<yellow>You have been blinded by <team> team!",
     "title": "<red>Trap Triggered!",
     "sub-title": "<yellow>Someone has entered your base!"
   },
   "miner-trap-triggered": {
-    "message": "<yellow>You have been slowed by %team% team!",
+    "message": "<yellow>You have been slowed by <team> team!",
     "title": "<red>Trap Triggered!",
     "sub-title": "<yellow>Someone has entered your base!"
   },
   "blindness-trap-purchased-title": "<gold>Blindness Trap has been purchased!",
   "miner-trap-purchased-title": "<gold>Mining Fatigue Trap has been purchased!",
-  "purchase-heal-pool": "<aqua>Heal Pool has been purchased by: %player%",
+  "purchase-heal-pool": "<aqua>Heal Pool has been purchased by: <player>",
   "respawn-title": "<red>YOU DIED!",
-  "respawn-message": "<yellow>You will respawn in <red>%time% <yellow>seconds",
-  "respawn-subtitle": "<yellow>You will respawn in <red>%time% <yellow>seconds",
+  "respawn-message": "<yellow>You will respawn in <red><time> <yellow>seconds",
+  "respawn-subtitle": "<yellow>You will respawn in <red><time> <yellow>seconds",
   "respawned-message": "<yellow>You have respawned",
   "respawned-title": "<green>RESPAWNED!",
   "eliminated-message": "<red>You have been eliminated!</red>",
@@ -67,22 +67,22 @@
   "command_cancel_upgrade": "<red>Cancelled shop and upgradeShop changes",
   "command_unknown": "<red>Unknown command, do /sba help for more.",
   "command_spectator_disabled": "<red>You cannot do this command while spectating",
-  "command_shout_invalid_usage": "<red>Invalid usage, /shout %message% is the format!",
+  "command_shout_invalid_usage": "<red>Invalid usage, /shout <message> is the format!",
   "gamesinv_disabled": "<red>Games inventory has been disabled, Contact the server owner to enable it.",
   "gamesinv_generated": "<green>Games Inventory file has been successfully generated!",
   "not_in_game": "<red>You have to be in a game to do this command!",
-  "shout_wait": "<red>You have to wait for %seconds% to use this command again!",
+  "shout_wait": "<red>You have to wait for <seconds> to use this command again!",
   "none": "None",
   "command_party_settings_get_help": "<red>Do /p settings help for help regarding party settings",
   "floating-generator": {
     "holo-text": [
-      "<yellow>Tier <red>%tier%",
-      "%material%",
-      "<yellow>Spawns in <red>%seconds% <yellow>seconds"
+      "<yellow>Tier <red><tier>",
+      "<material>",
+      "<yellow>Spawns in <red><seconds> <yellow>seconds"
     ],
     "full-text": [
-      "<yellow>Tier <red>%tier%",
-      "%material%",
+      "<yellow>Tier <red><tier>",
+      "<material>",
       "<red><bold>Spawner is full!</bold></red>"
     ]
   },
@@ -92,21 +92,21 @@
     "triples-prefix": "Triples",
     "squads-prefix": "Squads",
     "lines": [
-      "<gray>%date%",
+      "<gray><date>",
       "",
-      "<white>Map: <green>%game%",
-      "<white>Players: <green>%players%/%maxplayers%",
+      "<white>Map: <green><game>",
+      "<white>Players: <green><players>/<maxplayers>",
       "",
-      "%state%",
+      "<state>",
       "",
-      "<white>Mode: <green>%mode%",
+      "<white>Mode: <green><mode>",
       "<white>Version: <gray>v1.1",
       "",
-      "<yellow>SBA v%sba_version%"
+      "<yellow>SBA v<sba_version>"
     ],
     "state": {
       "waiting": "<white>Waiting...",
-      "countdown": "<white>Starting in <green>%countdown%s"
+      "countdown": "<white>Starting in <green><countdown>s"
     }
   },
   "games-inventory": {
@@ -119,7 +119,7 @@
     },
     "npc": {
       "display-name": [
-        "<aqua>Bed Wars</aqua> <gray>%mode%</gray>",
+        "<aqua>Bed Wars</aqua> <gray><mode></gray>",
         "<yellow><bold>CLICK TO PLAY</yellow></bold>"
       ]
     }
@@ -143,12 +143,12 @@
       "<green>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
       "                             <yellow><bold>Bed Wars</bold>",
       "",
-      "                             %color%%win_team%",
-      "                             %winners%",
+      "                             <color><win_team>",
+      "                             <winners>",
       "",
-      "    <yellow><bold>1st<gray> - <white>%first_killer_name% <gray>- <white>%first_killer_score%</bold>",
-      "    <gold><bold>2nd<gray> - <white>%second_killer_name% <gray>- <white>%second_killer_score%</bold>",
-      "    <red><bold>3rd<gray> - <white>%third_killer_name% <gray>- <white>%third_killer_score%</bold>",
+      "    <yellow><bold>1st<gray> - <white><first_killer_name> <gray>- <white><first_killer_score></bold>",
+      "    <gold><bold>2nd<gray> - <white><second_killer_name> <gray>- <white><second_killer_score></bold>",
+      "    <red><bold>3rd<gray> - <white><third_killer_name> <gray>- <white<third_killer_score></bold>",
       "",
       "<green>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
       ""
@@ -190,58 +190,58 @@
     ],
     "lines": {
       "default": [
-        "<gray>%date%",
+        "<gray><date>",
         "",
-        "%tier%",
+        "<tier>",
         "",
-        "%team_status%",
+        "<team_status>",
         "",
-        "<white>Kills: <green>%kills%",
-        "<white>Bed Broken: <green>%beds%",
+        "<white>Kills: <green><kills>",
+        "<white>Bed Broken: <green><beds>",
         "",
-        "<yellow>SBA v%sba_version%"
+        "<yellow>SBA v<sba_version>"
       ],
       "five": [
-        "<gray>%date%",
+        "<gray><date>",
         "",
-        "%tier%",
+        "<tier>",
         "",
-        "%team_status%",
+        "<team_status>",
         "",
-        "<yellow>SBA v%sba_version%"
+        "<yellow>SBA v<sba_version>"
       ]
     }
   },
   "main-lobby": {
-    "chat-format": "%color%[%level%✫] %name%: %message%",
+    "chat-format": "<color>[<level>✫] <name>: <message>",
     "tablist": {
       "header": [
         "<aqua>You are playing on <yellow><bold>WWW.SAMPLE.NET"
       ],
       "footer": [
-        "<yellow><bold>SBA v%sba_version%"
+        "<yellow><bold>SBA v<sba_version>"
       ]
     },
     "scoreboard": {
       "title": "<yellow><bold>BED WARS</bold>",
       "lines": [
         "",
-        "Your Level: <green>%level%",
+        "Your Level: <green><level>",
         "",
-        "Progress: %progress%",
-        "%bar%",
+        "Progress: <progress>",
+        "<bar>",
         "",
-        "Total Kills: <green>%kills%",
-        "Total Wins: <green>%wins%",
+        "Total Kills: <green><kills>",
+        "Total Wins: <green><wins>",
         "",
-        "K/D ratio: <gold>%kdr%",
+        "K/D ratio: <gold><kdr>",
         "",
-        "<yellow>SBA v%sba_version%"
+        "<yellow>SBA v<sba_version>"
       ]
     }
   },
   "party": {
-    "chat-format": "<blue>Party </blue><gray>>></gray> %name%<white>: %message%",
+    "chat-format": "<blue>Party </blue><gray>>></gray> <name><white>: <message>",
     "message": {
       "cannot-invite": [
         "<gold>-----------------------------------------------------",
@@ -280,7 +280,7 @@
       ],
       "invited": [
         "<gold>-----------------------------------------------------",
-        "<yellow>You have invited %player%<yellow> to your party!",
+        "<yellow>You have invited <player><yellow> to your party!",
         "<yellow>wait for them to accept it",
         "<gold>-----------------------------------------------------"
       ],
@@ -301,23 +301,23 @@
       ],
       "promoted-leader": [
         "<gold>-----------------------------------------------------",
-        "<yellow>%player% has been promoted to party leader!",
+        "<yellow><player> has been promoted to party leader!",
         "<gold>-----------------------------------------------------"
       ],
       "invite": [
         "<gold>-----------------------------------------------------",
-        "%player%<yellow> has invited you to join their party!",
+        "<player><yellow> has invited you to join their party!",
         "<yellow>Type /party accept to join. You have 60 seconds to accept.",
         "<gold>-----------------------------------------------------"
       ],
       "accepted": [
         "<gold>-----------------------------------------------------",
-        "%player% <green>joined the party!",
+        "<player> <green>joined the party!",
         "<gold>-----------------------------------------------------"
       ],
       "offline-left": [
         "<gold>-----------------------------------------------------",
-        "%player% <green>left the party due to inactivity",
+        "<player> <green>left the party due to inactivity",
         "<gold>-----------------------------------------------------"
       ],
       "left": [
@@ -327,7 +327,7 @@
       ],
       "offline-quit": [
         "<gold>-----------------------------------------------------",
-        "%player% <red>left the party",
+        "<player> <red>left the party",
         "<gold>-----------------------------------------------------"
       ],
       "no-players-warp": [
@@ -337,7 +337,7 @@
       ],
       "declined": [
         "<gold>-----------------------------------------------------",
-        "%player% <red>has declined this party invite",
+        "<player> <red>has declined this party invite",
         "<gold>-----------------------------------------------------"
       ],
       "kicked": [
@@ -367,7 +367,7 @@
       ],
       "already-muted": [
         "<gold>-----------------------------------------------------",
-        "<red>The party is already %isMuted%.",
+        "<red>The party is already <isMuted>.",
         "<gold>-----------------------------------------------------"
       ],
       "not-invited": [
@@ -402,7 +402,7 @@
       ],
       "chat-enable-disabled": [
         "<gold>-----------------------------------------------------",
-        "<green>Party chat has been %mode%",
+        "<green>Party chat has been <mode>",
         "<gold>-----------------------------------------------------"
       ],
       "help": [
@@ -433,8 +433,8 @@
     "shop_back": "<red>Back to category list",
     "price": "Price:",
     "amount": "Amount:",
-    "buy_success": "<green>You purchased: </green><yellow>%item%</yellow>",
-    "buy_failed": "<red>You don't have enough %material%</red>",
+    "buy_success": "<green>You purchased: </green><yellow><item></yellow>",
+    "buy_failed": "<red>You don't have enough <material></red>",
     "max-enchant": [
       "Maximum Enchant",
       "Your team already has maximum Enchant."
@@ -442,32 +442,32 @@
   },
   "death-messages": {
     "final-kill": "<aqua><bold>FINAL KILL!</aqua></bold>",
-    "void-death": "%player% <gray>fell into the void</gray>",
-    "void-kill": "%player% <gray>was knocked into the void by %killer%.</gray>",
-    "generic": "%player% <gray>died.</gray>",
+    "void-death": "<player> <gray>fell into the void</gray>",
+    "void-kill": "<player> <gray>was knocked into the void by <killer.</gray>",
+    "generic": "<player> <gray>died.</gray>",
     "pvp-regular": [
-      "%player% <gray>was killed by %killer%</gray>.",
-      "%player% <gray>got rekt by %killer%</gray>.",
-      "%player% <gray>was not spicy enough for %killer%</gray>.",
-      "%player% <gray>met their end by %killer%</gray>.",
-      "%player% <gray>was smacked down by %killer%</gray>.",
-      "%player% <gray>took the L to %killer%</gray>.",
-      "%player% <gray>was bitten down by %killer%</gray>.",
-      "%player% <gray>was struck down by %killer%</gray>.",
-      "%player% <gray>was hunted down by %killer%</gray>.",
-      "%player% <gray>be sent to Davy Jones' locker by %killer%</gray>.",
-      "%player% <gray>was turned to dust by %killer%</gray>.",
-      "%player% <gray>was given a cold shoulder by %killer%</gray>.",
-      "%player% <gray>slipped in BBQ sauce off the edge spilled by %killer%</gray>.",
-      "%player% <gray>was permanently banned by %killer%</gray>.",
-      "%player% <gray>was spooked by %killer%</gray>.",
-      "%player% <gray>could not beat the hacks of %killer%</gray>.",
-      "%player% <gray>fell to the great marksmanship of %killer%</gray>."
+      "<player> <gray>was killed by <killer</gray>.",
+      "<player> <gray>got rekt by <killer</gray>.",
+      "<player> <gray>was not spicy enough for <killer</gray>.",
+      "<player> <gray>met their end by <killer</gray>.",
+      "<player> <gray>was smacked down by <killer</gray>.",
+      "<player> <gray>took the L to <killer</gray>.",
+      "<player> <gray>was bitten down by <killer</gray>.",
+      "<player> <gray>was struck down by <killer</gray>.",
+      "<player> <gray>was hunted down by <killer</gray>.",
+      "<player> <gray>be sent to Davy Jones' locker by <killer</gray>.",
+      "<player> <gray>was turned to dust by <killer</gray>.",
+      "<player> <gray>was given a cold shoulder by <killer</gray>.",
+      "<player> <gray>slipped in BBQ sauce off the edge spilled by <killer</gray>.",
+      "<player> <gray>was permanently banned by <killer</gray>.",
+      "<player> <gray>was spooked by <killer</gray>.",
+      "<player> <gray>could not beat the hacks of <killer</gray>.",
+      "<player> <gray>fell to the great marksmanship of <killer</gray>."
     ]
   },
   "team-eliminated": [
     "",
-    "<white><bold>TEAM ELIMINATED > %team% Team <red>has been eliminated!",
+    "<white><bold>TEAM ELIMINATED > <team> Team <red>has been eliminated!",
     ""
   ]
 }

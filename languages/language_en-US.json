@@ -75,6 +75,7 @@
   "none": "None",
   "command_party_settings_get_help": "<red>Do /p settings help for help regarding party settings",
   "floating-generator": {
+    "sidebar-event-text": "<event> in <time>",
     "holo-text": [
       "<yellow>Tier <red><tier>",
       "<material>",

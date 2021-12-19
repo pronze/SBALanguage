@@ -1,4 +1,6 @@
 {
+  "unknown_usage": "<red>Invalid arguments! Try using <dark_red>/sba help <red>for help!",
+  "no_permissions": "<red>You don't have enough permission to do that!",
   "lang_name": "English",
   "game-end": "Game End",
   "diamond": "Diamond",

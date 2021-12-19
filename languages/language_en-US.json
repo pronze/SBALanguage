@@ -2,21 +2,21 @@
   "unknown_usage": "<red>Invalid arguments! Try using <dark_red>/sba help <red>for help!",
   "no_permissions": "<red>You don't have enough permission to do that!",
   "lang_name": "English",
-  "game-end": "Game End",
+  "game_end": "Game End",
   "diamond": "Diamond",
   "emerald": "Emerald",
   "armor": "armor",
   "sword": "sword",
   "pickaxe": "pickaxe",
   "axe": "axe",
-  "click-to-purchase": "<yellow>Click to purchase!</yellow>",
-  "cannot-downgrade-item": "<red>Cannot downgrade <item>!",
-  "dragon-spawn": "<red>Dragons has been spawned!, good luck",
-  "dragon-trap-purchased": "<gold>Dragon upgrade has been purchased!",
-  "game-starts-in": "<yellow>The game starts in <red><seconds> <yellow>seconds",
-  "bed-destroyed": {
+  "click_to_purchase": "<yellow>Click to purchase!</yellow>",
+  "cannot_downgrade_item": "<red>Cannot downgrade <item>!",
+  "dragon_spawn": "<red>Dragons has been spawned!, good luck",
+  "dragon_trap_purchased": "<gold>Dragon upgrade has been purchased!",
+  "game_starts_in": "<yellow>The game starts in <red><seconds> <yellow>seconds",
+  "bed_destroyed": {
     "title": "<red><bold>BED DESTROYED!</bold>",
-    "sub-title": "You will no longer respawn!",
+    "sub_title": "You will no longer respawn!",
     "messages": [
       "<white><bold>BED DESTRUCTION > </white></bold> <team> Bed <gray>was destroyed by <destroyer></gray>",
       "<white><bold>BED DESTRUCTION > </white></bold> <team> Bed <gray>got memed by <destroyer></gray>",
@@ -24,40 +24,40 @@
       "<white><bold>BED DESTRUCTION > </white></bold> <team> Bed <gray>was incinerated by <destroyer></gray>"
     ]
   },
-  "added-npc": "<green>Successfully added GamesInventory NPC!",
-  "removable-npc-toggle": "<green>Right click the NPC you want to remove! <gray>[Timeout: 5 seconds]",
-  "npc-already-available": "<red>There is already an NPC at this location!</red>",
-  "npc-removed": "<green>NPC has been removed!",
-  "already-purchased": "<red><bold>You already purchased the same <thing></bold>",
-  "wait-trap": "<red>You already purchased this upgrade!, wait for it to wear out",
-  "upgrade-team-protection": "<red><player><yellow> has upgraded team protection",
-  "upgrade-team-sharpness": "<red><player><yellow> has upgraded team sharpness",
-  "upgrade-team-efficiency": "<red><player><yellow> has upgraded team efficiency",
-  "error-occured": "<red><bold>AN ERROR HAS OCCURRED</bold>",
-  "greatest-enchantment": "<red><bold>You Already have the greatest enchantment</bold>",
-  "generator-upgrade": "<MatName><yellow> generator has been upgraded to <red><tier>",
-  "shout-format": "<gold>[SHOUT] <color>[<team>]<reset> <player><gray>: <reset><message>",
-  "blind-trap-triggered": {
+  "added_npc": "<green>Successfully added GamesInventory NPC!",
+  "removable_npc_toggle": "<green>Right click the NPC you want to remove! <gray>[Timeout: 5 seconds]",
+  "npc_already_available": "<red>There is already an NPC at this location!</red>",
+  "npc_removed": "<green>NPC has been removed!",
+  "already_purchased": "<red><bold>You already purchased the same <thing></bold>",
+  "wait_trap": "<red>You already purchased this upgrade!, wait for it to wear out",
+  "upgrade_team_protection": "<red><player><yellow> has upgraded team protection",
+  "upgrade_team_sharpness": "<red><player><yellow> has upgraded team sharpness",
+  "upgrade_team_efficiency": "<red><player><yellow> has upgraded team efficiency",
+  "error_occurred": "<red><bold>AN ERROR HAS OCCURRED</bold>",
+  "greatest_enchantment": "<red><bold>You Already have the greatest enchantment</bold>",
+  "generator_upgrade": "<MatName><yellow> generator has been upgraded to <red><tier>",
+  "shout_format": "<gold>[SHOUT] <color>[<team>]<reset> <player><gray>: <reset><message>",
+  "blind_trap_triggered": {
     "message": "<yellow>You have been blinded by <team> team!",
     "title": "<red>Trap Triggered!",
-    "sub-title": "<yellow>Someone has entered your base!"
+    "sub_title": "<yellow>Someone has entered your base!"
   },
-  "miner-trap-triggered": {
+  "miner_trap_triggered": {
     "message": "<yellow>You have been slowed by <team> team!",
     "title": "<red>Trap Triggered!",
-    "sub-title": "<yellow>Someone has entered your base!"
+    "sub_title": "<yellow>Someone has entered your base!"
   },
-  "blindness-trap-purchased-title": "<gold>Blindness Trap has been purchased!",
-  "miner-trap-purchased-title": "<gold>Mining Fatigue Trap has been purchased!",
-  "purchase-heal-pool": "<aqua>Heal Pool has been purchased by: <player>",
-  "respawn-title": "<red>YOU DIED!",
-  "respawn-message": "<yellow>You will respawn in <red><time> <yellow>seconds",
-  "respawn-subtitle": "<yellow>You will respawn in <red><time> <yellow>seconds",
-  "respawned-message": "<yellow>You have respawned",
-  "respawned-title": "<green>RESPAWNED!",
-  "eliminated-message": "<red>You have been eliminated!</red>",
-  "victory-title": "<gold><bold>VICTORY!</bold>",
-  "cannot-put-item-on-chest": "<red><bold>You cannot put this item onto this chest.</bold>",
+  "blindness_trap_purchased_title": "<gold>Blindness Trap has been purchased!",
+  "miner_trap_purchased_title": "<gold>Mining Fatigue Trap has been purchased!",
+  "purchase_heal_pool": "<aqua>Heal Pool has been purchased by: <player>",
+  "respawn_title": "<red>YOU DIED!",
+  "respawn_message": "<yellow>You will respawn in <red><time> <yellow>seconds",
+  "respawn_subtitle": "<yellow>You will respawn in <red><time> <yellow>seconds",
+  "respawned_message": "<yellow>You have respawned",
+  "respawned_title": "<green>RESPAWNED!",
+  "eliminated_message": "<red>You have been eliminated!</red>",
+  "victory_title": "<gold><bold>VICTORY!</bold>",
+  "cannot_put_item_on_chest": "<red><bold>You cannot put this item onto this chest.</bold>",
   "upgrade": "Upgrade: ",
   "game_not_found": "<red>Could not find game!",
   "reloaded": "Plugin reloaded!",
@@ -76,24 +76,24 @@
   "shout_wait": "<red>You have to wait for <seconds> to use this command again!",
   "none": "None",
   "command_party_settings_get_help": "<red>Do /p settings help for help regarding party settings",
-  "floating-generator": {
-    "sidebar-event-text": "<event> in <green><time></green>",
-    "holo-text": [
+  "floating_generator": {
+    "sidebar_event_text": "<event> in <green><time></green>",
+    "holo_text": [
       "<yellow>Tier <red><tier>",
       "<material>",
       "<yellow>Spawns in <red><seconds> <yellow>seconds"
     ],
-    "full-text": [
+    "full_text": [
       "<yellow>Tier <red><tier>",
       "<material>",
       "<red><bold>Spawner is full!</bold></red>"
     ]
   },
-  "lobby-scoreboard": {
-    "solo-prefix": "Solo",
-    "doubles-prefix": "Doubles",
-    "triples-prefix": "Triples",
-    "squads-prefix": "Squads",
+  "lobby_scoreboard": {
+    "solo_prefix": "Solo",
+    "doubles_prefix": "Doubles",
+    "triples_prefix": "Triples",
+    "squads_prefix": "Squads",
     "lines": [
       "<gray><date>",
       "",
@@ -112,22 +112,23 @@
       "countdown": "<white>Starting in <green><countdown>s"
     }
   },
-  "games-inventory": {
-    "could-not-find-game": "<red>Could not find game!",
+  "games_inventory": {
+    "unknown_inventory": "<red>Unknown games inventory <gray><type><red>!",
+    "could_not_find_game": "<red>Could not find game!",
     "gui": {
-      "solo-prefix": "Bed Wars Solo",
-      "double-prefix": "Bed Wars Doubles",
-      "triple-prefix": "Bed Wars Triples",
-      "squad-prefix": "Bed Wars Squads"
+      "solo_prefix": "Bed Wars Solo",
+      "double_prefix": "Bed Wars Doubles",
+      "triple_prefix": "Bed Wars Triples",
+      "squad_prefix": "Bed Wars Squads"
     },
     "npc": {
-      "display-name": [
+      "display_name": [
         "<aqua>Bed Wars</aqua> <gray><mode></gray>",
         "<yellow><bold>CLICK TO PLAY</yellow></bold>"
       ]
     }
   },
-  "game-start": {
+  "game_start": {
     "message": [
       "<green>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
       "                             <white><bold>Bed Wars</bold>",
@@ -215,8 +216,8 @@
       ]
     }
   },
-  "main-lobby": {
-    "chat-format": "<color>[<level>✫] <name>: <message>",
+  "main_lobby": {
+    "chat_format": "<color>[<level>✫] <name>: <message>",
     "tablist": {
       "header": [
         "<aqua>You are playing on <yellow><bold>WWW.SAMPLE.NET"
@@ -244,39 +245,39 @@
     }
   },
   "party": {
-    "chat-format": "<blue>Party </blue><gray>>></gray> <name><white>: <message>",
+    "chat_format": "<blue>Party </blue><gray>>></gray> <name><white>: <message>",
     "message": {
-      "cannot-invite": [
-        "<gold>-----------------------------------------------------",
+      "cannot_invite": [
+        "<gold>__---------------------------------------------------",
         "<red>You cannot invite this player to your party!",
         "<gold>-----------------------------------------------------"
       ],
-      "limit-reached": [
+      "limit_reached": [
         "<gold>-----------------------------------------------------",
         "<red>Party has reached max size!",
         "<gold>-----------------------------------------------------"
       ],
-      "leader-join-leave": [
+      "leader_join_leave": [
         "<gold>-----------------------------------------------------",
         "<red>You have been teleported by the party leader",
         "<gold>-----------------------------------------------------"
       ],
-      "invite-expired": [
+      "invite_expired": [
         "<gold>-----------------------------------------------------",
         "<red>The party invite has been expired",
         "<gold>-----------------------------------------------------"
       ],
-      "invalid-command": [
+      "invalid_command": [
         "<gold>-----------------------------------------------------",
         "<red>Invalid command, do /p help for more.",
         "<gold>-----------------------------------------------------"
       ],
-      "access-denied": [
-        "<gold>-----------------------------------------------------",
+      "access_denied": [
+        "<gold>__---------------------------------------------------",
         "<red>You cannot access this command",
         "<gold>-----------------------------------------------------"
       ],
-      "not-in-party": [
+      "not_in_party": [
         "<gold>-----------------------------------------------------",
         "<red>You are currently not in a party!",
         "<gold>-----------------------------------------------------"
@@ -287,7 +288,7 @@
         "<yellow>wait for them to accept it",
         "<gold>-----------------------------------------------------"
       ],
-      "already-invited": [
+      "already_invited": [
         "<gold>-----------------------------------------------------",
         "<red>This player has already had pending invites!",
         "<gold>-----------------------------------------------------"
@@ -302,7 +303,7 @@
         "<yellow>Warping players..",
         "<gold>-----------------------------------------------------"
       ],
-      "promoted-leader": [
+      "promoted_leader": [
         "<gold>-----------------------------------------------------",
         "<yellow><player> has been promoted to party leader!",
         "<gold>-----------------------------------------------------"
@@ -318,7 +319,7 @@
         "<player> <green>joined the party!",
         "<gold>-----------------------------------------------------"
       ],
-      "offline-left": [
+      "offline_left": [
         "<gold>-----------------------------------------------------",
         "<player> <green>left the party due to inactivity",
         "<gold>-----------------------------------------------------"
@@ -328,12 +329,12 @@
         "<red>You left the party!",
         "<gold>-----------------------------------------------------"
       ],
-      "offline-quit": [
+      "offline_quit": [
         "<gold>-----------------------------------------------------",
         "<player> <red>left the party",
         "<gold>-----------------------------------------------------"
       ],
-      "no-players-warp": [
+      "no_players_warp": [
         "<gold>-----------------------------------------------------",
         "<red>There are no players to warp!",
         "<gold>-----------------------------------------------------"
@@ -348,7 +349,7 @@
         "{player} <red>Has been kicked from party",
         "<gold>-----------------------------------------------------"
       ],
-      "disband-inactivity": [
+      "disband_inactivity": [
         "<gold>-----------------------------------------------------",
         "<green>Party has been disbanded due to inactivity",
         "<gold>-----------------------------------------------------"
@@ -358,37 +359,37 @@
         "<red>Party has been disbanded by the leader.",
         "<gold>-----------------------------------------------------"
       ],
-      "player-not-found": [
+      "player_not_found": [
         "<gold>-----------------------------------------------------",
         "<red>Could not find Player!",
         "<gold>-----------------------------------------------------"
       ],
-      "cannot-invite-yourself": [
+      "cannot_invite_yourself": [
         "<gold>-----------------------------------------------------",
         "<red>You can't invite yourself.",
         "<gold>-----------------------------------------------------"
       ],
-      "already-muted": [
+      "already_muted": [
         "<gold>-----------------------------------------------------",
         "<red>The party is already <isMuted>.",
         "<gold>-----------------------------------------------------"
       ],
-      "not-invited": [
+      "not_invited": [
         "<gold>-----------------------------------------------------",
         "<red>You are not invited to any party",
         "<gold>-----------------------------------------------------"
       ],
-      "max-invite-size": [
+      "max_invite_size": [
         "<gold>-----------------------------------------------------",
         "<red>You cannot invite more than 5 players at a time.",
         "<gold>-----------------------------------------------------"
       ],
-      "got-kicked": [
-        "<gold>-----------------------------------------------------",
+      "got_kicked": [
+        "<gold>_----------------------------------------------------",
         "<red>You have been kicked from party",
         "<gold>-----------------------------------------------------"
       ],
-      "declined-user": [
+      "declined_user": [
         "<gold>-----------------------------------------------------",
         "<red>You declined the invite!",
         "<gold>-----------------------------------------------------"
@@ -398,12 +399,12 @@
         "<red><bold>AN ERROR OCCURRED!",
         "<gold>-----------------------------------------------------"
       ],
-      "not-in-game": [
+      "not_in_game": [
         "<gold>-----------------------------------------------------",
         "<red>You are not in a game to do this command!",
         "<gold>-----------------------------------------------------"
       ],
-      "chat-enable-disabled": [
+      "chat_enable_disabled": [
         "<gold>-----------------------------------------------------",
         "<green>Party chat has been <mode>",
         "<gold>-----------------------------------------------------"
@@ -421,11 +422,11 @@
   },
   "shop": {
     "npc": {
-      "normal-shop-display-name": [
+      "normal_shop_display_name": [
         "<aqua>ITEM SHOP",
         "<yellow><bold>RIGHT CLICK"
       ],
-      "upgrade-shop-display-name": [
+      "upgrade_shop_display_name": [
         "<aqua>UPGRADES SHOP",
         "<yellow><bold>RIGHT CLICK"
       ]
@@ -438,17 +439,17 @@
     "amount": "Amount:",
     "buy_success": "<green>You purchased: </green><yellow><item></yellow>",
     "buy_failed": "<red>You don't have enough <material></red>",
-    "max-enchant": [
+    "max_enchant": [
       "Maximum Enchant",
       "Your team already has maximum Enchant."
     ]
   },
-  "death-messages": {
-    "final-kill": "<aqua><bold>FINAL KILL!</aqua></bold>",
-    "void-death": "<player> <gray>fell into the void</gray>",
-    "void-kill": "<player> <gray>was knocked into the void by <killer.</gray>",
+  "death_messages": {
+    "final_kill": "<aqua><bold>FINAL KILL!</aqua></bold>",
+    "void_death": "<player> <gray>fell into the void</gray>",
+    "void_kill": "<player> <gray>was knocked into the void by <killer.</gray>",
     "generic": "<player> <gray>died.</gray>",
-    "pvp-regular": [
+    "pvp_regular": [
       "<player> <gray>was killed by <killer</gray>.",
       "<player> <gray>got rekt by <killer</gray>.",
       "<player> <gray>was not spicy enough for <killer</gray>.",
@@ -468,7 +469,7 @@
       "<player> <gray>fell to the great marksmanship of <killer</gray>."
     ]
   },
-  "team-eliminated": [
+  "team_eliminated": [
     "",
     "<white><bold>TEAM ELIMINATED > <team> Team <red>has been eliminated!",
     ""
